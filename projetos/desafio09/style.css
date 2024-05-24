@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body{
+    background-color: black;
+}
+
+main{
+    width: 404px;
+    margin: auto;
+    color: white
+    
+}
+
+h1{
+    color: white;
+    text-align: justify;
+    margin: auto;
+}

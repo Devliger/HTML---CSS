@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2c2c2c;
+    font-family: Arial, sans-serif;
+}
+
+.cartao {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.cartao h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.cartao h2 {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #c0c0c0;
+}
+
+.contact-info {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.formation {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #a0a0a0;
+}
+
+.cartao-icones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cartao-icones img {
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+    transition: transform 0.3s;
+}
+
+.cartao-icones img:hover {
+    transform: scale(1.2);
+}
